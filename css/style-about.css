@@ -1,0 +1,207 @@
+
+body
+{ 
+    background-color: #CEC2C2;
+    padding-top: 60px;
+
+}
+
+.navbar
+{
+    background-color: #1F6D82;
+}
+
+.navbar .navbar-toggle 
+{
+    background-color: #fff;
+}
+
+.navbar .navbar-toggle .icon-bar
+{
+    background-color: #000;
+}
+.navbar .navbar-header .navbar-brand{
+    
+    font-size: 30px;
+    font-weight: bolder;
+    color: #403288;
+    padding-top: 18px;
+}
+
+.navbar .navbar-header .navbar-brand span
+{
+    color: rgb(206, 197, 82);
+    margin-left: -6px
+}
+
+.navbar .navbar-collapse .navbar-nav li
+{
+   padding: 0 3px; 
+}
+
+.navbar .navbar-collapse .navbar-nav .active
+{
+    border-bottom: 2px solid#000;
+}
+
+.navbar .navbar-collapse .navbar-nav>li>a
+{
+    color: #3A1029;
+    font-size: 16px;
+    padding: 18px 12px;
+    font-weight: bold
+}
+
+.navbar .navbar-collapse .navbar-nav>li>a:hover
+{
+    background: none;
+    border-bottom: 2px solid#000;
+}
+/*** end navbar ***/
+
+.About-us
+{
+    margin-left: 70px;
+}
+
+.About-us h2
+{
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:#748686;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.About-us .img
+{
+     border: 10px inset#B1A7A7;
+     margin-top: 5px;
+     margin-bottom:  40px;
+    width: 100%
+}
+
+.About-us p
+{
+    padding-right: 150px;
+    line-height: 2;
+    font-style: italic;
+    padding-bottom: 20px
+}
+
+/*start footer*/
+.footer
+{
+    background-color: #d9d9d9;
+    border-top: 2px solid#fff;
+}
+
+.footer .LATEST-NEWS,
+.footer .CONTACT-US,
+.footer .SEND
+{
+    padding: 30px;
+    font-size: 14px;
+    height: 190px;
+}
+.footer .copyright
+{
+    background-color: #4F5843;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #D9D9D9
+}
+.footer .copyright .soshel i
+{
+    padding-left: 20px;
+    opacity: 0.5
+}
+.footer .copyright .soshel i:hover
+{
+    opacity: 1
+}
+.footer .copyright .soshel .fa-facebook
+{
+    color: #0829D8;
+    font-size: 25px;
+}
+.footer .copyright .soshel .fa-twitter
+{
+    font-size: 25px;
+    color: #00CEFF;
+}
+.footer .copyright .soshel .fa-google-plus
+{
+    font-size: 25px;
+    color: #f00;
+}
+/*end footer*/
+/* start scroll top*/
+
+#scroll-top
+{
+    background: #272727;
+    position: fixed;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    right: 15px;
+    color: #ddd;
+    bottom: 10px;
+    z-index: 9999;
+    display: none;
+    cursor:pointer;
+}
+
+#scroll-top:hover
+{
+    background: #444;
+}
+@media (max-width: 767px) And (min-width: 299px)
+{
+.navbar .navbar-collapse .navbar-nav>li>a:hover,
+.navbar .navbar-collapse .navbar-nav>li .active
+    {
+        border: none;
+        background-color:#0ff;      
+    }
+
+.navbar .navbar-collapse .navbar-nav>li
+    {
+        margin-top: 5px;
+    }
+}
+@media (max-width: 825px) And (min-width: 229px)
+{
+    .About-us .img
+    {
+        width: 100%;
+        
+    }
+.About-us
+    {
+        margin:auto
+    }
+.About-us p
+    {
+        padding: 0;
+    }
+.About-us h2:not(:first-child)
+    {
+        font-size: 12px;
+        color: #000
+    }
+.footer .CONTACT-US,
+.footer .SEND
+    {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+.Manes .testmonials 
+    {
+        margin: auto;
+    }
+}
+}

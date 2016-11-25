@@ -1,0 +1,281 @@
+*{
+    -webkit-box-sizing: border-box;
+      -moz- box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+body
+{ 
+    background-color: #CEC2C2;
+    padding-top: 60px;
+    overflow: hidden;
+}
+/*** start navbar ***/
+.navbar
+{
+    background-color: #1F6D82;
+}
+
+.navbar .navbar-toggle 
+{
+    background-color: #fff;
+}
+
+.navbar .navbar-toggle .icon-bar
+{
+    background-color: #000;
+}
+.navbar .navbar-header .navbar-brand{
+    
+    font-size: 30px;
+    font-weight: bolder;
+    color: #403288;
+    padding-top: 18px;
+}
+
+.navbar .navbar-header .navbar-brand span
+{
+    color: rgb(206, 197, 82);
+    margin-left: -6px
+}
+
+.navbar .navbar-collapse .navbar-nav li
+{
+   padding: 0 3px; 
+}
+
+.navbar .navbar-collapse .navbar-nav .active
+{
+    border-bottom: 2px solid#000;
+}
+
+.navbar .navbar-collapse .navbar-nav>li>a
+{
+    color: #3A1029;
+    font-size: 16px;
+    padding: 18px 12px;
+    font-weight: bold
+}
+
+.navbar .navbar-collapse .navbar-nav>li>a:hover
+{
+    background: none;
+    border-bottom: 2px solid#000;
+}
+/*** end navbar ***/
+
+.pic
+{
+    background-color: #E9E9E9;
+    margin: auto 100px;
+    box-shadow: -4px 0 5px,
+                 4px 0 5px;
+    -webkit-box-shadow: -4px 0 5px,
+                 4px 0 5px;
+    -moz-box-shadow: -4px 0 5px,
+                 4px 0 5px;
+    -o-box-shadow: -4px 0 5px,
+                 4px 0 5px;
+}
+
+.pic img
+{
+    border: 3px inset #ccc;
+    width: 100%
+}
+.pic h2
+{
+   
+    line-height: 2
+}
+
+.pic p
+{font-size: 27px;line-height: 2;width: 100%}
+/*end pic*/
+/*start Manes*/
+.y
+{
+    background-color: #eee;
+}
+.Manes 
+{
+    margin-left: 100px;
+    margin: 1px auto;
+    padding-bottom: 20px;
+    padding-top: 10px
+}
+.Manes .free
+{
+    margin-bottom: 30px
+}
+
+.Manes .free>p> a
+{
+    color: #444;
+    text-decoration: underline;
+}
+.Manes .free>p> a:hover
+{
+    color: #000;
+}
+.Manes .free h2
+{
+    font-weight: bolder;
+}
+.Manes .testmonials 
+{
+   margin-right: 300px
+}
+.Manes .testmonials h4
+{
+    padding-top: 20px
+}
+/*end manes*/
+/*start Choose us*/
+
+.choose-us img
+{
+    border: 6px solid#C38D8D;
+}
+.choose-us,.choose-us h2
+{
+    padding-bottom: 10px;
+}
+.choose-us p 
+{
+    margin-right: 27px;
+    font-weight: bold;
+}
+.choose-us p b
+{
+    display: block;
+    text-transform: uppercase;
+    margin: 5px auto;
+    font-weight: bolder;
+    color: #A77A7A;
+}
+
+ .choose-us .btn-primary,
+.footer .btn-primary
+{
+    background-color: rgb(108, 108, 108);
+    border-radius: 0;
+    margin-bottom: 20px
+}
+/*end Choose us*/
+/*start footer*/
+.footer
+{
+    background-color: #d9d9d9;
+    border-top: 2px solid#fff;
+}
+
+.footer .LATEST-NEWS,
+.footer .CONTACT-US,
+.footer .SEND
+{
+    padding: 30px;
+    font-size: 14px;
+    height: 190px;
+}
+.footer .copyright
+{
+    background-color: #4F5843;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #D9D9D9
+}
+.footer .copyright .soshel i
+{
+    padding-left: 20px;
+    opacity: 0.5
+}
+.footer .copyright .soshel i:hover
+{
+    opacity: 1
+}
+.footer .copyright .soshel .fa-facebook
+{
+    color: #0829D8;
+    font-size: 25px;
+}
+.footer .copyright .soshel .fa-twitter
+{
+    font-size: 25px;
+    color: #00CEFF
+}
+.footer .copyright .soshel .fa-google-plus
+{
+    font-size: 25px;
+    color: #f00
+}
+/*end footer*/
+
+/* start scroll top*/
+
+#scroll-top
+{
+    background: #272727;
+    position: fixed;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    right: 15px;
+    color: #ddd;
+    bottom: 10px;
+    z-index: 9999;
+    display: none;
+    cursor:pointer;
+}
+
+#scroll-top:hover
+{
+    background: #444;
+}
+/*meda query*/
+@media (max-width: 767px) And (min-width: 299px)
+{
+.navbar .navbar-collapse .navbar-nav>li>a:hover,
+.navbar .navbar-collapse .navbar-nav>li .active
+    {
+        border: none;
+        background-color:#0ff;      
+    }
+
+.navbar .navbar-collapse .navbar-nav>li
+    {
+        margin-top: 5px;
+    }
+.pic,.pic p,.pic h2
+    {
+        margin: auto;
+        font-size: 15px;
+        padding: 0;
+        
+    }
+.Manes .free,.Manes .free h2,
+.footer .CONTACT-US,
+.footer .SEND
+    {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+.Manes .testmonials 
+    {
+        margin: auto;
+    }
+}
+
+@media (max-width: 998px) And (min-width: 767px)
+{
+.pic,.pic p,.pic h2
+    {
+        margin:auto 20px;
+        font-size: 20px;
+        padding: 0; 
+    }
+}
+
+
